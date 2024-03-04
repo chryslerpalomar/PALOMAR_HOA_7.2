@@ -1,0 +1,29 @@
+---
+- hosts: all
+  become: true
+  pre_tasks:
+
+  - name: Ensure dpkg is configured
+    raw: sudo dpkg --configure -a
+    ignore_errors: yes
+    changed_when: false
+
+  - name: install updates 
+    tags: always
+    apt:
+      upgrade: yes
+      update_cache: yes
+      cache_valid_time: 86400
+
+- hosts: Logs_Hosts
+  become: true
+  tasks:
+
+  - name: fetch logs from control node
+    fetch:
+      src: "/var/log/{{ item }}"
+      dest: "logs/"
+      flat: yes
+    with_items:
+      - syslog
+      - auth.log

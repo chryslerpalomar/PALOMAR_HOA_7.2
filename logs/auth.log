@@ -1,0 +1,283 @@
+2024-03-04T00:23:27.915248+00:00 ChryslerPC useradd[512]: new group: name=chrysler, GID=1000
+2024-03-04T00:23:27.915249+00:00 ChryslerPC useradd[512]: new user: name=chrysler, UID=1000, GID=1000, home=/home/chrysler, shell=/bin/bash, from=none
+2024-03-04T00:23:27.915250+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'adm'
+2024-03-04T00:23:27.915252+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'cdrom'
+2024-03-04T00:23:27.915253+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'sudo'
+2024-03-04T00:23:27.915254+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'dip'
+2024-03-04T00:23:27.915257+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'plugdev'
+2024-03-04T00:23:27.915258+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'users'
+2024-03-04T00:23:27.915259+00:00 ChryslerPC useradd[512]: add 'chrysler' to group 'lpadmin'
+2024-03-04T00:23:27.915260+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'adm'
+2024-03-04T00:23:27.915262+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'cdrom'
+2024-03-04T00:23:27.915263+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'sudo'
+2024-03-04T00:23:27.915266+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'dip'
+2024-03-04T00:23:27.915267+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'plugdev'
+2024-03-04T00:23:27.915268+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'users'
+2024-03-04T00:23:27.915270+00:00 ChryslerPC useradd[512]: add 'chrysler' to shadow group 'lpadmin'
+2024-03-04T00:23:27.915942+00:00 ChryslerPC systemd-logind[640]: New seat seat0.
+2024-03-04T00:23:27.915948+00:00 ChryslerPC systemd-logind[640]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T00:23:27.915949+00:00 ChryslerPC systemd-logind[640]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T00:23:27.915952+00:00 ChryslerPC systemd-logind[640]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T00:23:46.758026+00:00 ChryslerPC gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T00:23:46.758143+00:00 ChryslerPC gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T00:23:46.799257+00:00 ChryslerPC systemd-logind[640]: New session c1 of user gdm.
+2024-03-04T00:23:46.811794+00:00 ChryslerPC systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T00:23:48.324455+00:00 ChryslerPC polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T00:24:53.194051+00:00 ChryslerPC gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T00:24:53.194169+00:00 ChryslerPC gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T00:24:53.224903+00:00 ChryslerPC gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T00:24:53.225054+00:00 ChryslerPC gdm-password]: pam_unix(gdm-password:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T00:24:53.257044+00:00 ChryslerPC systemd-logind[640]: New session 2 of user chrysler.
+2024-03-04T00:24:53.278216+00:00 ChryslerPC systemd: pam_unix(systemd-user:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T00:24:53.522663+00:00 ChryslerPC gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T00:24:54.084148+00:00 ChryslerPC gnome-keyring-daemon[1787]: The PKCS#11 component was already initialized
+2024-03-04T00:24:54.084475+00:00 ChryslerPC gnome-keyring-daemon[2063]: discover_other_daemon: 1
+2024-03-04T00:24:54.087481+00:00 ChryslerPC gnome-keyring-daemon[1787]: The Secret Service was already initialized
+2024-03-04T00:24:54.111301+00:00 ChryslerPC gnome-keyring-daemon[2064]: discover_other_daemon: 1
+2024-03-04T00:24:54.113767+00:00 ChryslerPC gnome-keyring-daemon[2065]: discover_other_daemon: 1
+2024-03-04T00:24:54.602989+00:00 ChryslerPC polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.73 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T00:24:55.443206+00:00 ChryslerPC gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T00:24:55.479050+00:00 ChryslerPC systemd-logind[640]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T00:24:55.508086+00:00 ChryslerPC systemd-logind[640]: Removed session c1.
+2024-03-04T00:24:55.582724+00:00 ChryslerPC polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T00:25:41.207431+00:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/apt update
+2024-03-04T00:25:41.207648+00:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/apt upgrade --fix-missing -y
+2024-03-04T00:25:41.207728+00:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:25:41.208012+00:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:25:43.093682+00:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T00:25:59.339263+00:00 ChryslerPC pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:25:59.340707+00:00 ChryslerPC pkexec[3237]: chrysler: Executing command [USER=root] [TTY=unknown] [CWD=/home/chrysler] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T08:28:00.566981+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:28:58.279350+08:00 ChryslerPC pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:28:58.280979+08:00 ChryslerPC pkexec[26933]: chrysler: Executing command [USER=root] [TTY=unknown] [CWD=/home/chrysler] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T08:29:38.668534+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/apt upgrade --fix-missing -y
+2024-03-04T08:29:38.669313+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/apt update
+2024-03-04T08:29:38.669493+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:29:38.669971+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:29:39.035127+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:29:40.110890+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:29:46.149227+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/apt autoremove
+2024-03-04T08:29:46.149912+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:29:48.480629+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:30:05.332513+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2024-03-04T08:30:05.333186+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:30:10.411966+08:00 ChryslerPC useradd[27504]: new user: name=sshd, UID=124, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2024-03-04T08:30:13.686272+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:30:18.853786+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/sbin/service ssh start
+2024-03-04T08:30:18.854878+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:30:19.405753+08:00 ChryslerPC sshd[27822]: Server listening on :: port 22.
+2024-03-04T08:30:19.409282+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:30:24.909649+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+2024-03-04T08:30:24.910464+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:30:25.127423+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:30:32.397960+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2024-03-04T08:30:32.398559+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:30:33.178402+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:30:45.302238+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2024-03-04T08:30:45.302913+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:30:53.134144+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/sbin/ufw status
+2024-03-04T08:30:53.134974+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:30:53.189791+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:34:44.420572+08:00 ChryslerPC systemd-logind[700]: New seat seat0.
+2024-03-04T08:34:44.420580+08:00 ChryslerPC systemd-logind[700]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T08:34:44.420583+08:00 ChryslerPC systemd-logind[700]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T08:34:44.420597+08:00 ChryslerPC systemd-logind[700]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T08:34:46.166616+08:00 ChryslerPC gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T08:34:46.167781+08:00 ChryslerPC gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:34:46.231705+08:00 ChryslerPC systemd-logind[700]: New session c1 of user gdm.
+2024-03-04T08:34:46.341354+08:00 ChryslerPC systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:34:50.378590+08:00 ChryslerPC polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:35:14.511352+08:00 ChryslerPC gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T08:35:14.511665+08:00 ChryslerPC gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T08:35:14.517275+08:00 ChryslerPC gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T08:35:14.527560+08:00 ChryslerPC gdm-password]: pam_unix(gdm-password:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:35:14.562337+08:00 ChryslerPC systemd-logind[700]: New session 2 of user chrysler.
+2024-03-04T08:35:14.592323+08:00 ChryslerPC systemd: pam_unix(systemd-user:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:35:14.794049+08:00 ChryslerPC gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T08:35:15.249347+08:00 ChryslerPC gnome-keyring-daemon[1399]: The Secret Service was already initialized
+2024-03-04T08:35:15.263766+08:00 ChryslerPC gnome-keyring-daemon[1399]: The PKCS#11 component was already initialized
+2024-03-04T08:35:15.264008+08:00 ChryslerPC gnome-keyring-daemon[1552]: discover_other_daemon: 1
+2024-03-04T08:35:15.264139+08:00 ChryslerPC gnome-keyring-daemon[1553]: discover_other_daemon: 1
+2024-03-04T08:35:15.268600+08:00 ChryslerPC gnome-keyring-daemon[1554]: discover_other_daemon: 1
+2024-03-04T08:35:15.980113+08:00 ChryslerPC polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:35:17.088324+08:00 ChryslerPC gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T08:35:17.106163+08:00 ChryslerPC systemd-logind[700]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T08:35:17.126852+08:00 ChryslerPC systemd-logind[700]: Removed session c1.
+2024-03-04T08:35:17.216001+08:00 ChryslerPC polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T08:45:13.258480+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+2024-03-04T08:45:13.258638+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:45:35.569397+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:45:42.252471+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T08:45:42.253120+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:49:12.970372+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:50:09.346574+08:00 ChryslerPC sudo: chrysler : TTY=pts/0 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T08:50:09.348832+08:00 ChryslerPC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T08:50:17.995288+08:00 ChryslerPC sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T08:52:46.937273+08:00 ChryslerPC sshd[2481]: Server listening on :: port 22.
+2024-03-04T08:52:51.511042+08:00 ChryslerPC sshd[2482]: Connection closed by authenticating user chrysler 192.168.56.106 port 40468 [preauth]
+2024-03-04T08:52:51.652580+08:00 ChryslerPC sshd[2484]: Connection closed by authenticating user chrysler 192.168.56.106 port 40478 [preauth]
+2024-03-04T08:52:55.982657+08:00 ChryslerPC sshd[2486]: Accepted password for chrysler from 192.168.56.106 port 40492 ssh2
+2024-03-04T08:52:55.984497+08:00 ChryslerPC sshd[2486]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:52:56.003819+08:00 ChryslerPC systemd-logind[700]: New session 4 of user chrysler.
+2024-03-04T08:52:56.106408+08:00 ChryslerPC sshd[2486]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T08:52:56.125004+08:00 ChryslerPC sshd[2563]: Received disconnect from 192.168.56.106 port 40492:11: disconnected by user
+2024-03-04T08:52:56.125127+08:00 ChryslerPC sshd[2563]: Disconnected from user chrysler 192.168.56.106 port 40492
+2024-03-04T08:52:56.125390+08:00 ChryslerPC sshd[2486]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T08:52:56.128184+08:00 ChryslerPC systemd-logind[700]: Session 4 logged out. Waiting for processes to exit.
+2024-03-04T08:52:57.422008+08:00 ChryslerPC systemd-logind[700]: Removed session 4.
+2024-03-04T08:53:36.912964+08:00 ChryslerPC sshd[2695]: Connection closed by authenticating user chrysler 192.168.56.106 port 58966 [preauth]
+2024-03-04T08:53:37.085173+08:00 ChryslerPC sshd[2697]: Accepted publickey for chrysler from 192.168.56.106 port 36856 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T08:53:37.086951+08:00 ChryslerPC sshd[2697]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:53:37.089964+08:00 ChryslerPC systemd-logind[700]: New session 5 of user chrysler.
+2024-03-04T08:53:37.188270+08:00 ChryslerPC sshd[2697]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T08:53:37.235631+08:00 ChryslerPC sshd[2733]: Received disconnect from 192.168.56.106 port 36856:11: disconnected by user
+2024-03-04T08:53:37.235909+08:00 ChryslerPC sshd[2733]: Disconnected from user chrysler 192.168.56.106 port 36856
+2024-03-04T08:53:37.236395+08:00 ChryslerPC sshd[2697]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T08:53:37.239801+08:00 ChryslerPC systemd-logind[700]: Session 5 logged out. Waiting for processes to exit.
+2024-03-04T08:53:37.242311+08:00 ChryslerPC systemd-logind[700]: Removed session 5.
+2024-03-04T08:53:41.758704+08:00 ChryslerPC sshd[2735]: Connection closed by authenticating user chrysler 192.168.56.106 port 36872 [preauth]
+2024-03-04T08:53:41.911617+08:00 ChryslerPC sshd[2737]: Accepted publickey for chrysler from 192.168.56.106 port 36876 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T08:53:41.913413+08:00 ChryslerPC sshd[2737]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:53:41.939872+08:00 ChryslerPC systemd-logind[700]: New session 6 of user chrysler.
+2024-03-04T08:53:41.999260+08:00 ChryslerPC sshd[2737]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T08:53:42.048154+08:00 ChryslerPC sshd[2773]: Received disconnect from 192.168.56.106 port 36876:11: disconnected by user
+2024-03-04T08:53:42.048267+08:00 ChryslerPC sshd[2773]: Disconnected from user chrysler 192.168.56.106 port 36876
+2024-03-04T08:53:42.048474+08:00 ChryslerPC sshd[2737]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T08:53:42.051886+08:00 ChryslerPC systemd-logind[700]: Session 6 logged out. Waiting for processes to exit.
+2024-03-04T08:53:42.055929+08:00 ChryslerPC systemd-logind[700]: Removed session 6.
+2024-03-04T08:53:49.845134+08:00 ChryslerPC sshd[2775]: Accepted publickey for chrysler from 192.168.56.106 port 32822 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T08:53:49.846618+08:00 ChryslerPC sshd[2775]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:53:49.898137+08:00 ChryslerPC systemd-logind[700]: New session 7 of user chrysler.
+2024-03-04T08:53:49.962172+08:00 ChryslerPC sshd[2775]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T08:54:08.554356+08:00 ControlNode systemd-logind[704]: New seat seat0.
+2024-03-04T08:54:08.554372+08:00 ControlNode systemd-logind[704]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T08:54:08.554373+08:00 ControlNode systemd-logind[704]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T08:54:08.554375+08:00 ControlNode systemd-logind[704]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T08:54:08.966565+08:00 ControlNode gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T08:54:08.966713+08:00 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:54:08.994697+08:00 ControlNode systemd-logind[704]: New session c1 of user gdm.
+2024-03-04T08:54:09.038489+08:00 ControlNode systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T08:54:10.960647+08:00 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:54:25.957211+08:00 ControlNode gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T08:54:25.957299+08:00 ControlNode gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T08:54:25.985319+08:00 ControlNode gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T08:54:25.988459+08:00 ControlNode gdm-password]: pam_unix(gdm-password:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:54:26.019889+08:00 ControlNode systemd-logind[704]: New session 2 of user chrysler.
+2024-03-04T08:54:26.036488+08:00 ControlNode systemd: pam_unix(systemd-user:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:54:26.471475+08:00 ControlNode gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T08:54:26.890437+08:00 ControlNode gnome-keyring-daemon[1388]: The PKCS#11 component was already initialized
+2024-03-04T08:54:26.891347+08:00 ControlNode gnome-keyring-daemon[1549]: discover_other_daemon: 1
+2024-03-04T08:54:26.893303+08:00 ControlNode gnome-keyring-daemon[1388]: The Secret Service was already initialized
+2024-03-04T08:54:26.894887+08:00 ControlNode gnome-keyring-daemon[1550]: discover_other_daemon: 1
+2024-03-04T08:54:26.923691+08:00 ControlNode gnome-keyring-daemon[1551]: discover_other_daemon: 1
+2024-03-04T08:54:27.594669+08:00 ControlNode polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T08:54:28.581489+08:00 ControlNode gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T08:54:28.585712+08:00 ControlNode systemd-logind[704]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T08:54:28.618400+08:00 ControlNode systemd-logind[704]: Removed session c1.
+2024-03-04T08:54:28.702694+08:00 ControlNode polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T08:55:06.040274+08:00 ControlNode sshd[2209]: Server listening on :: port 22.
+2024-03-04T08:55:06.180775+08:00 ControlNode sshd[2210]: Accepted publickey for chrysler from 192.168.56.106 port 43366 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T08:55:06.182309+08:00 ControlNode sshd[2210]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:55:06.207113+08:00 ControlNode systemd-logind[704]: New session 4 of user chrysler.
+2024-03-04T08:55:06.306684+08:00 ControlNode sshd[2210]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T08:55:09.592044+08:00 ControlNode sshd[2288]: Received disconnect from 192.168.56.106 port 43366:11: disconnected by user
+2024-03-04T08:55:09.592112+08:00 ControlNode sshd[2288]: Disconnected from user chrysler 192.168.56.106 port 43366
+2024-03-04T08:55:09.592493+08:00 ControlNode sshd[2210]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T08:55:09.597699+08:00 ControlNode systemd-logind[704]: Session 4 logged out. Waiting for processes to exit.
+2024-03-04T08:55:09.598464+08:00 ControlNode systemd-logind[704]: Removed session 4.
+2024-03-04T08:55:18.923811+08:00 ControlNode sshd[2306]: Accepted publickey for chrysler from 192.168.56.106 port 59296 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T08:55:18.925090+08:00 ControlNode sshd[2306]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T08:55:18.943076+08:00 ControlNode systemd-logind[704]: New session 5 of user chrysler.
+2024-03-04T08:55:19.010498+08:00 ControlNode sshd[2306]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T08:55:21.328413+08:00 ControlNode sshd[2342]: Received disconnect from 192.168.56.106 port 59296:11: disconnected by user
+2024-03-04T08:55:21.328504+08:00 ControlNode sshd[2342]: Disconnected from user chrysler 192.168.56.106 port 59296
+2024-03-04T08:55:21.328845+08:00 ControlNode sshd[2306]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T08:55:21.333374+08:00 ControlNode systemd-logind[704]: Session 5 logged out. Waiting for processes to exit.
+2024-03-04T08:55:21.337069+08:00 ControlNode systemd-logind[704]: Removed session 5.
+2024-03-04T09:17:03.127955+08:00 ControlNode CRON[2457]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T09:17:03.140788+08:00 ControlNode CRON[2457]: pam_unix(cron:session): session closed for user root
+2024-03-04T09:27:28.836327+08:00 ControlNode sshd[2465]: Accepted publickey for chrysler from 192.168.56.106 port 34298 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T09:27:28.838426+08:00 ControlNode sshd[2465]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T09:27:28.863008+08:00 ControlNode systemd-logind[704]: New session 7 of user chrysler.
+2024-03-04T09:27:28.927260+08:00 ControlNode sshd[2465]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:28:29.304241+08:00 ControlNode sshd[2501]: Received disconnect from 192.168.56.106 port 34298:11: disconnected by user
+2024-03-04T09:28:29.304358+08:00 ControlNode sshd[2501]: Disconnected from user chrysler 192.168.56.106 port 34298
+2024-03-04T09:28:29.304965+08:00 ControlNode sshd[2465]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T09:28:29.309263+08:00 ControlNode systemd-logind[704]: Session 7 logged out. Waiting for processes to exit.
+2024-03-04T09:28:29.311942+08:00 ControlNode systemd-logind[704]: Removed session 7.
+2024-03-04T09:30:02.050037+08:00 ControlNode CRON[2531]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T09:30:02.052416+08:00 ControlNode CRON[2531]: pam_unix(cron:session): session closed for user root
+2024-03-04T09:44:44.693297+08:00 ControlNode sshd[2540]: Accepted publickey for chrysler from 192.168.56.106 port 51070 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T09:44:44.697259+08:00 ControlNode sshd[2540]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T09:44:44.731510+08:00 ControlNode systemd-logind[704]: New session 9 of user chrysler.
+2024-03-04T09:44:44.795443+08:00 ControlNode sshd[2540]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:44:45.082873+08:00 ControlNode sudo: chrysler : a password is required ; TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rkmkmprmeroiwkjmwmqxfqojxrpozcul ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516684.843949-4882-45476805607019/AnsiballZ_setup.py'
+2024-03-04T09:45:45.270068+08:00 ControlNode sshd[2576]: Received disconnect from 192.168.56.106 port 51070:11: disconnected by user
+2024-03-04T09:45:45.270317+08:00 ControlNode sshd[2576]: Disconnected from user chrysler 192.168.56.106 port 51070
+2024-03-04T09:45:45.270742+08:00 ControlNode sshd[2540]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T09:45:45.277152+08:00 ControlNode systemd-logind[704]: Session 9 logged out. Waiting for processes to exit.
+2024-03-04T09:45:45.280187+08:00 ControlNode systemd-logind[704]: Removed session 9.
+2024-03-04T09:46:20.276978+08:00 ControlNode sshd[2604]: Accepted publickey for chrysler from 192.168.56.106 port 53946 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T09:46:20.279027+08:00 ControlNode sshd[2604]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T09:46:20.311403+08:00 ControlNode systemd-logind[704]: New session 10 of user chrysler.
+2024-03-04T09:46:20.373783+08:00 ControlNode sshd[2604]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:46:20.697186+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ndaxiimclulxuylxctqohmszbhwbinwn ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516780.4225504-4952-167511387883843/AnsiballZ_setup.py'
+2024-03-04T09:46:20.697747+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:46:21.223069+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:46:21.285720+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-fumcqgbnvkulyvdetfzqdllibqirezpb ; sudo dpkg --configure -a'
+2024-03-04T09:46:21.285894+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:46:21.292380+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+2024-03-04T09:46:21.292959+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=0)
+2024-03-04T09:46:21.323722+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:46:21.325006+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:46:21.525128+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-bpqnuozbcldsjyykwifuhrsadxghejjc ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516781.3472238-4970-51405009905674/AnsiballZ_apt.py'
+2024-03-04T09:46:21.525527+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:46:22.506558+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:46:31.281498+08:00 ControlNode sudo: chrysler : a password is required ; TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ntqcsyadyyvncvecpcvjtxuajqwimfyq ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516790.7240095-4984-238903337966542/AnsiballZ_setup.py'
+2024-03-04T09:47:19.234436+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ukxcgdkbzstlvipfsqmalwvqzsemdkbp ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516838.9600224-5012-166248769115791/AnsiballZ_setup.py'
+2024-03-04T09:47:19.235023+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:47:19.802844+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:47:19.864814+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ilaefcvggnfbawuypqzeyvxggpoqciuu ; sudo dpkg --configure -a'
+2024-03-04T09:47:19.865565+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:47:19.872514+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+2024-03-04T09:47:19.873020+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=0)
+2024-03-04T09:47:19.897140+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:47:19.898553+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:47:20.125838+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-kythzqwwspgotjbvhlrtxtekdcvqvaje ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516839.9253035-5026-136787106889112/AnsiballZ_apt.py'
+2024-03-04T09:47:20.126400+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:47:20.835190+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:47:20.980836+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-xyslkvkizvplyllnjucebnzrsunlcveg ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516840.8923285-5037-132237910263404/AnsiballZ_setup.py'
+2024-03-04T09:47:20.981271+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:47:21.583595+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:47:21.811218+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-hbmvsznfyaxyxiozkiuzpfqjezklkdmt ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709516841.6580057-5046-5295497953004/AnsiballZ_slurp.py'
+2024-03-04T09:47:21.811690+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:47:21.900173+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:48:22.075006+08:00 ControlNode sshd[2640]: Received disconnect from 192.168.56.106 port 53946:11: disconnected by user
+2024-03-04T09:48:22.075232+08:00 ControlNode sshd[2640]: Disconnected from user chrysler 192.168.56.106 port 53946
+2024-03-04T09:48:22.075342+08:00 ControlNode sshd[2604]: pam_unix(sshd:session): session closed for user chrysler
+2024-03-04T09:48:22.082498+08:00 ControlNode systemd-logind[704]: Session 10 logged out. Waiting for processes to exit.
+2024-03-04T09:48:22.084279+08:00 ControlNode systemd-logind[704]: Removed session 10.
+2024-03-04T09:54:48.521396+08:00 ControlNode sshd[3042]: Accepted publickey for chrysler from 192.168.56.106 port 60692 ssh2: RSA SHA256:HxxDVrQL142j13x702VNl9d8K/tCF2IGIBYPIPnYXA4
+2024-03-04T09:54:48.523060+08:00 ControlNode sshd[3042]: pam_unix(sshd:session): session opened for user chrysler(uid=1000) by (uid=0)
+2024-03-04T09:54:48.526465+08:00 ControlNode systemd-logind[704]: New session 11 of user chrysler.
+2024-03-04T09:54:48.678270+08:00 ControlNode sshd[3042]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T09:54:48.970982+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-dsqlzulqmbocoojjrhviesjxacteswva ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709517288.7160888-5306-177971673755190/AnsiballZ_setup.py'
+2024-03-04T09:54:48.973361+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:54:49.435951+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:49.489798+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ooytxrxhjwabdnnvfxkxnydunlksztae ; sudo dpkg --configure -a'
+2024-03-04T09:54:49.490425+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:54:49.497022+08:00 ControlNode sudo:     root : TTY=pts/2 ; PWD=/home/chrysler ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+2024-03-04T09:54:49.497339+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=0)
+2024-03-04T09:54:49.519766+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:49.521011+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:49.720736+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-epqchkvotzitfcgdqmllswptsluvfkwu ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709517289.5303094-5324-44948189142985/AnsiballZ_apt.py'
+2024-03-04T09:54:49.721168+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:54:50.406605+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:50.556622+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jjflakgagvuzvbtxbtbjekiwsfpqpijj ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709517290.4585037-5336-279293423663269/AnsiballZ_setup.py'
+2024-03-04T09:54:50.557083+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:54:51.063252+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:51.275873+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-vpsmxzehnwnkdqlgjlgoewehfwmuubcs ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709517291.1054413-5345-2941495566901/AnsiballZ_slurp.py'
+2024-03-04T09:54:51.276264+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
+2024-03-04T09:54:51.420804+08:00 ControlNode sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:51.539697+08:00 ControlNode sudo: chrysler : TTY=pts/1 ; PWD=/home/chrysler ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-dpevgtjqnzvqlijbpmyopbzugxrbnqql ; /usr/bin/python3 /home/chrysler/.ansible/tmp/ansible-tmp-1709517291.44131-5345-202809711315749/AnsiballZ_slurp.py'
+2024-03-04T09:54:51.539873+08:00 ControlNode sudo: pam_unix(sudo:session): session opened for user root(uid=0) by chrysler(uid=1000)
